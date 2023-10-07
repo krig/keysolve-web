@@ -19,7 +19,7 @@ window.onload = async function() {
     board.stagger()
 
     base = await (await fetch('percentiles.json')).json()
-    window.stats()
+    setTimeout(() => window.stats(), 100)
 }
 
 window.info = function() {
