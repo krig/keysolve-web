@@ -2,7 +2,7 @@ import * as drag from './drag.mjs'
 import * as disable from './disable.mjs'
 import * as classify from './classify.mjs'
 
-export let board = 'stagger'
+export let board = 'ortho'
 export let angle = false
 
 export function set_angle(bool) {
@@ -53,6 +53,8 @@ export function update(layout) {
 
     if (board == 'stagger') {
         stagger()
+    } else {
+        ortho()
     }
 
     drag.init()
