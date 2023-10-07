@@ -16,7 +16,7 @@ window.onload = async function() {
     settings.init()
     themes.init()
 
-    board.stagger()
+    board.ortho()
 
     base = await (await fetch('percentiles.json')).json()
     setTimeout(() => window.stats(), 100)
