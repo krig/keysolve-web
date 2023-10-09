@@ -1,10 +1,11 @@
 :root {
-    --color-5: #179299;
-    --color-4: #40a02b;
-    --color-3: #df8e1d;
-    --color-2: #fe640b;
-    --color-1: #e64553;
+    --color-5: #a6da95;
+    --color-4: #eed49f;
+    --color-3: #f5a97f;
+    --color-2: #ee99a0;
+    --color-1: #ed8796;
     --color-search: var(--color-1);
     --color-text: var(--color-bg);
-    --color-shadow: #4c4f69;
+    --color-shadow: #181926;
+    --color-box: #24273a;
 }
