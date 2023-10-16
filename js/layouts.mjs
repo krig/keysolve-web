@@ -245,6 +245,7 @@ export const LAYOUTS = {
     "crouton": "gldpqzkou,crtnvyhaeiwjmb  x';.fs",
     "ace-vim": "jlhkgqpuo,srntmyceaizxbdvwf/;.",
     "evtest9": "wclpvxfou/rsntgyheiaqzmbjkd',.",
+    "recurva": "frdpvqjuoysntcb.heaizxkgwml;',",
     "therein": "zjoukwplcmsiaedythrn.;vbxgqf?,",
     "calemog": "xlcwkzfuy;orstmbneiaqjvdgph',.",
     "stupid1": "bwdyvxro.uscthfjneaizgmpkql',/",
