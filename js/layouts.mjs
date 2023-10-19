@@ -85,7 +85,7 @@ export const LAYOUTS = {
     "dwarf": "flhdvzgou.srntmpyeiaxjbkqcw',;",
     "kaehi": "qwldgjuop/nrstmkaehizxcvbyf,.;",
     "khaei": "qwmgzxyou'rsntpkhaeibcldvjf./,",
-    "waffle": "qclgzxfou,rsntpkhaeiwvmdb/y'j.",
+    "waffle": "qcmgzxfou,rsntpkhaeiwvldb/y'j.",
     "ctgap": "qplcjxfou/rntsgyheiazbmwvkd',.",
     "boner": "xwlgzqbou,sdrtvfneia/cjmkph\u2018y.",
     "rsthp": "-cyfkzlqu;rsthpmnaiojvgdbxw,./e",
