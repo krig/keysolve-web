@@ -271,6 +271,8 @@ export const LAYOUTS = {
     "adept30": "jwmpqzyou'rsntgvheiaxcldbkf,./",
     "rollmak": "qwfpbzluo;crstgmneaivxydkjh/,.",
     "gallium": "bldcvzyou,nrtsgfhaeiqxmwjkp';.",
+    "gallium-v2": "bldcvjfou,nrtsgyhaeixqmwzkp';.",
+    "graphite": "bldwz'foujnrtsgyhaeiqxmcvkp.-,",
     "gallaya": "bldczjfou,nrtsgphaeiqxmwvky';.",
     "yrstmak": "qwfpbjlou;yrstkxnaeivcdgzmh'/.",
     "asrt-dh": "qwlmbjfuy asrtgpneiozxcdvkh   ",
