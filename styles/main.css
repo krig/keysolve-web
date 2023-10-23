@@ -9,7 +9,7 @@
     box-sizing: border-box; 
 
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
-    font-weight: 600;
+    font-weight: normal;
 
     color: var(--color-text);
 }
