@@ -69,6 +69,7 @@ export const LAYOUTS = {
     "caeserty": "rxfsuzvjpqbteghiklm;aydwcon,./",
     "calemog": "xlcwkzfuy;orstmbneiaqjvdgph',.",
     "canary": "wlypkzxou;crstbfneiajvdgqmh/,.",
+    "canary-ortho": "wlypbzfou'crstgmneiaqjvdkxh/,.",
     "canary-gv": "wlypkzfou'crstbxneiaqjgdvmh,./",
     "canoleymak": "qwfpzjlou'crstkxneiabmgdv-h,./y",
     "capewell": ".ywdfjpluqaersgbtnioxzcv;kmh,'",
