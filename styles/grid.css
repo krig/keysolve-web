@@ -38,4 +38,5 @@
 
 .cell:hover {
     filter: brightness(120%);
+    transform: scale(1.05);
 }
