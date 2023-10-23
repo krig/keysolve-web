@@ -1,0 +1,12 @@
+:root {
+    --color-5: #817;
+    --color-4: #c66;
+    --color-3: #ed0;
+    --color-2: #4d8;
+    --color-1: #0bc;
+    --color-search: #09c;
+    --color-text: var(--color-bg);
+    --color-shadow: #111;
+    --color-box: #333;
+}
+
