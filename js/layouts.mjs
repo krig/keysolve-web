@@ -145,6 +145,7 @@ export const LAYOUTS = {
     "dwarf": "flhdvzgou.srntmpyeiaxjbkqcw',;",
     "em0gus": "vkrcpjfou.stndyqlaeizbxgwmh';,",
     "engel": "qwfpbjluy;crstgmnaio'xvdkzh,./e",
+    "engrammer-qz": "byou';ldwvciea,.htsngxjkqzrmfp",
     "engram-apsu": "vwdlqzuoybnsth.,aeicpfmr/'kjxg",
     "ev's-slightly-modified-nrstmak": "fyrpbjkou,scntdlheiavqxwgzm'.;",
     "ev10": "wfldk,uoyprsntg.iehcxjmbv\u21ef-\u21e7/z'aq",
