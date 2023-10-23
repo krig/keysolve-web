@@ -1,0 +1,12 @@
+:root {
+    --color-5: #af2e1b;
+    --color-4: #cc6324;
+    --color-3: #3b4b59;
+    --color-2: #bfa07a;
+    --color-1: #d9c3b0;
+    --color-search: var(--color-2);
+    --color-text: var(--color-bg);
+    --color-shadow: #111;
+    --color-box: #333;
+}
+

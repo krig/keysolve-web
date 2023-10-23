@@ -1,4 +1,4 @@
-const themes = ["Synthwave", "Tropics", "Playground", "Scuba", "Catppuccin", "12bit"]
+const themes = ["Synthwave", "Tropics", "Playground", "Scuba", "Catppuccin", "12bit", "DR05"]
 
 export function init() {
     const selectTheme = document.getElementById('themes')
