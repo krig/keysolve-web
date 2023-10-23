@@ -229,7 +229,7 @@ export const LAYOUTS = {
     "khlc": "khlcv.ybj'tsrnduaieoqzwm;gfp,x",
     "klausler": "k,uypwlmfcoaeidrnthsq.';zxvgbj",
     "klawloid": ",gdhnqruoycstfbwjeai.kmpvlz/'x",
-    "laissez-faire-free-market-corporatist": "rqlz;cs.tbmoneyfw,pdjax'uvgikh"
+    "laissez-faire-free-market-corporatist": "rqlz;cs.tbmoneyfw,pdjax'uvgikh",
     "lamp": "'lmpqzfou;crstwyneihjxgdk/b,.va",
     "layoutissimus": "pqmhxy,ojznctsl.uaiekbfrdvgw'/",
     "learn": ",ourjkpmcxiaenldhtys.;'qzbfgwv",
@@ -468,5 +468,5 @@ export const LAYOUTS = {
     "zhenvern": "/kdcfqluoyrthsgxneaiwmpbjzv'.,",
     "zwou": "pldfkzwou,nrthyvsaeiqjmcgxb';.",
     "zyou": "vlhfwzyou,srncgktaeixjmpbqd';.",
-    "zyvern": "xdlwvqpuoyrthscbneai/kmgjzf'.,",
+    "zyvern": "xdlwvqpuoyrthscbneai/kmgjzf'.,"
 }
