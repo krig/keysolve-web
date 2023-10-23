@@ -27,23 +27,6 @@ window.info = function() {
     window.open(url, '_blank')
 }
 
-window.toggle = function() {
-    const ngrams = document.getElementById('ngrams')
-    const use = document.getElementById('use')
-
-    if (ngrams.hasAttribute('hidden')) {
-        ngrams.removeAttribute('hidden')
-    } else {
-        ngrams.setAttribute('hidden', 'true')
-    }
-
-    if (use.hasAttribute('hidden')) {
-        use.removeAttribute('hidden')
-    } else {
-        use.setAttribute('hidden', 'true')
-    }
-}
-
 window.stats = function() {
     const res = stats.analyze()
 

@@ -10,9 +10,6 @@ You can search for layouts by clicking the layout header and typing in a layout 
 **Swaps**  
 You can swap letters around by clicking a key on the heatmap and dragging it over another key.
 
-**Toggle Ngram/Use Metrics**  
-You can toggle between the bigram/trigram/skipgram table and the use table by clicking the `stats` button.
-
 **Copy and Paste**  
 By clicking the button with the gear icon, you can see the layout in text form. Here you can either copy the layout to easily share it or use it with other analyzers, or you can paste in another layout.
 
