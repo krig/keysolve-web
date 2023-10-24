@@ -295,6 +295,7 @@ export const LAYOUTS = {
     "ouae": "xplmvqoudjsnrcg'aetizbhfw;.,ky",
     "oxey's-thumb-t": "vblcfz,oy'rsndpkheiaqxmgw.u;j/t",
     "padding-my-list": ".uoyjwfrmxieadkgcnts,;'hqbplvz",
+    "phaedra": "xcmgqzyou,rsntbphaeiwvldkjf'/.",
     "phonkie": "qlmpbzfuoyrnthdcseaijxvk;wg'.,",
     "pinball": "zkdvqjfou,nthrwysaeipbmlxgc';.",
     "pine": "ylrmkqfou,csntgbhaeijxzwvpd'/.",
