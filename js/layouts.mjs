@@ -446,7 +446,7 @@ export const LAYOUTS = {
     "vitrimak-ortho": "e.viacoqytsj/dgmpx,wrk'lnfuzbh",
     "vlbu": "vlbuaoygdrz;xk',.cqneiwmsjfpht",
     "waffle": "xcmgzqyou,rsntpjhaeiwfldbvk'/.",
-    "waffle2": "qcmgzxyou,rsntpkhaeiwvldbjf'/.",
+    "waffle2": "xcmgzqfou,rsntpyhaeiwvldbjk'/.",
     "whaarf": "flhkz'wuq/srntmyceioxjbdvpg;,.a",
     "wharf": ".uocfqknl,ieaygvthrs;'wpzmdbjx",
     "whorf": "flhdmvwou,srntkgyaeixjbzqpc';.",
