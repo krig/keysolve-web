@@ -8,7 +8,7 @@ import * as themes from './themes.mjs'
 
 let base = {}
 
-window.onload = async function() {
+addEventListener("load", async () => {
     search.init()
     drag.init()
     disable.init()
@@ -19,8 +19,9 @@ window.onload = async function() {
     board.ortho()
 
     base = await (await fetch('percentiles.json')).json()
-    setTimeout(() => window.stats(), 100)
-}
+
+    window.stats();
+});
 
 window.info = function() {
     const url = 'https://github.com/ClemenPine/keysolve-web'
