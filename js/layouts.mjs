@@ -447,6 +447,7 @@ export const LAYOUTS = {
     "vlbu": "vlbuaoygdrz;xk',.cqneiwmsjfpht",
     "waffle": "xcmgzqyou,rsntpjhaeiwfldbvk'/.",
     "waffle2": "xcmgzqfou,rsntpyhaeiwvldbjk'/.",
+    "mongooze": "qwmgzjyou'rsntpkhaeivcldbxf./,",
     "whaarf": "flhkz'wuq/srntmyceioxjbdvpg;,.a",
     "wharf": ".uocfqknl,ieaygvthrs;'wpzmdbjx",
     "whorf": "flhdmvwou,srntkgyaeixjbzqpc';.",
