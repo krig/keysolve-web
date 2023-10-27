@@ -250,6 +250,8 @@ export const LAYOUTS = {
     "middlephobia": "wcdl;'puoyrsthxzneaivgfm,.bkqj",
     "middlephobia_angle": "wcdl'zpuoyrsthx,neaigfmv;.bkqj",
     "middlephobia_ansi": "wcdlxzpuoyrsth',neaivgfm;.bkqj",
+    "middlemak": "qwldgjfou:asrtpyneihzxcvbkm,./",
+    "middlemak-nh": "qwldgjfou:nsrtpyheiazxcvbkm,./",
     "minimak-12": "qwdfkyuil;astrghneopzxcvbjm,./",
     "mmmm": "vmlpqzx,u;strdyfnaiojkwcgbh'./e",
     "moyaimak": "bldwv'foujnrtsmyhaeizxgcqpk/-;",
