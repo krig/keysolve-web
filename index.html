@@ -21,7 +21,7 @@
     <div id="canvas">
         <div class="box">
             <div id="search-wrapper">
-                <input id="search" class="center" autocomplete="off" value="graphite-k">
+                <input id="search" class="center" autocomplete="off" value="krigite">
                 <div id="complete" class="center"></div>
             </div>
 
@@ -32,7 +32,7 @@
                 <div draggable="true" class="cell center W">W</div>
                 <div draggable="true" class="cell center Z">Z</div>
                 <div draggable="true" class="cell center J">J</div>
-                <div draggable="true" class="cell center F">F</div>
+                <div draggable="true" class="cell center K">K</div>
                 <div draggable="true" class="cell center O">O</div>
                 <div draggable="true" class="cell center U">U</div>
                 <div draggable="true" class="cell center ,">,</div>
@@ -52,13 +52,12 @@
                 <div draggable="true" class="cell center C">C</div>
                 <div draggable="true" class="cell center V">V</div>
                 <div draggable="true" class="cell center P">P</div>
-                <div draggable="true" class="cell center K">K</div>
+                <div draggable="true" class="cell center F">F</div>
                 <div draggable="true" class="cell center '">'</div>
                 <div draggable="true" class="cell center -">-</div>
                 <div draggable="true" class="cell center .">.</div>
             </div>
         </div>
-
 
         <div id="table-wrapper" class="box center">
             <table id="ngrams">
@@ -67,15 +66,15 @@
                         <td>BIGRAMS</td>
                         <td id="SFB" style="">SFB: 0.79%</td>
                         <td id="LSB" style="background: var(--color-3);">LSB: 2.22%</td>
-                        <td id="HSB" style="">HSB: 2.53%</td>
-                        <td id="FSB" style="background: var(--color-4);">FSB: 0.23%</td>
+                        <td id="HSB" style="">HSB: 2.54%</td>
+                        <td id="FSB" style="background: var(--color-4);">FSB: 0.22%</td>
                     </tr>
                     <tr>
                         <td>SKIPGRAMS</td>
                         <td id="SFS" style="">SFS: 5.70%</td>
                         <td id="LSS" style="background: var(--color-3);">LSS: 2.39%</td>
-                        <td id="HSS" style="background: var(--color-2);">HSS: 8.32%</td>
-                        <td id="FSS" style="">FSS: 0.39%</td>
+                        <td id="HSS" style="background: var(--color-2);">HSS: 7.99%</td>
+                        <td id="FSS" style="">FSS: 0.38%</td>
                     </tr>
                     <tr>
                         <td>TRIGRAMS</td>
@@ -87,6 +86,7 @@
                 </tbody>
             </table>
         </div>
+
         <div id="table-wrapper" class="box center">
             <table id="use">
                 <tbody>
@@ -111,7 +111,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div> 
+        </div>
 
         <div id="toolbar">
             <button class="button" onclick="mirror()">
