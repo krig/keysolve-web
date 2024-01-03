@@ -21,93 +21,91 @@
     <div id="canvas">
         <div class="box">
             <div id="search-wrapper">
-                <input id="search" class="center" autocomplete="off" value="krigite">
+                <input id="search" class="center" autocomplete="off" value="waffle3">
                 <div id="complete" class="center"></div>
             </div>
 
             <div id="grid">
-                <div draggable="true" class="cell center B">B</div>
-                <div draggable="true" class="cell center L">L</div>
-                <div draggable="true" class="cell center D">D</div>
-                <div draggable="true" class="cell center W">W</div>
-                <div draggable="true" class="cell center Z">Z</div>
-                <div draggable="true" class="cell center '">'</div>
-                <div draggable="true" class="cell center Y">Y</div>
-                <div draggable="true" class="cell center O">O</div>
-                <div draggable="true" class="cell center U">U</div>
-                <div draggable="true" class="cell center Q">Q</div>
-                <div draggable="true" class="cell center N">N</div>
-                <div draggable="true" class="cell center R">R</div>
-                <div draggable="true" class="cell center T">T</div>
-                <div draggable="true" class="cell center S">S</div>
-                <div draggable="true" class="cell center G">G</div>
-                <div draggable="true" class="cell center P">P</div>
-                <div draggable="true" class="cell center H">H</div>
-                <div draggable="true" class="cell center A">A</div>
-                <div draggable="true" class="cell center E">E</div>
-                <div draggable="true" class="cell center I">I</div>
-                <div draggable="true" class="cell center X">X</div>
-                <div draggable="true" class="cell center J">J</div>
-                <div draggable="true" class="cell center M">M</div>
-                <div draggable="true" class="cell center C">C</div>
-                <div draggable="true" class="cell center V">V</div>
-                <div draggable="true" class="cell center K">K</div>
-                <div draggable="true" class="cell center F">F</div>
-                <div draggable="true" class="cell center .">.</div>
-                <div draggable="true" class="cell center -">-</div>
-                <div draggable="true" class="cell center ,">,</div>
+                <div class="cell center X" draggable="true">X</div>
+                <div class="cell center C" draggable="true">C</div>
+                <div class="cell center M" draggable="true">M</div>
+                <div class="cell center G" draggable="true">G</div>
+                <div class="cell center Z" draggable="true">Z</div>
+                <div class="cell center Q" draggable="true">Q</div>
+                <div class="cell center Y" draggable="true">Y</div>
+                <div class="cell center O" draggable="true">O</div>
+                <div class="cell center U" draggable="true">U</div>
+                <div class="cell center ," draggable="true">,</div>
+                <div class="cell center R" draggable="true">R</div>
+                <div class="cell center S" draggable="true">S</div>
+                <div class="cell center N" draggable="true">N</div>
+                <div class="cell center T" draggable="true">T</div>
+                <div class="cell center B" draggable="true">B</div>
+                <div class="cell center K" draggable="true">K</div>
+                <div class="cell center H" draggable="true">H</div>
+                <div class="cell center E" draggable="true">E</div>
+                <div class="cell center I" draggable="true">I</div>
+                <div class="cell center A" draggable="true">A</div>
+                <div class="cell center W" draggable="true">W</div>
+                <div class="cell center F" draggable="true">F</div>
+                <div class="cell center L" draggable="true">L</div>
+                <div class="cell center D" draggable="true">D</div>
+                <div class="cell center V" draggable="true">V</div>
+                <div class="cell center J" draggable="true">J</div>
+                <div class="cell center P" draggable="true">P</div>
+                <div class="cell center /" draggable="true">/</div>
+                <div class="cell center ." draggable="true">.</div>
+                <div class="cell center '" draggable="true">'</div>
             </div>
         </div>
-
-        <div id="table-wrapper" class="box center">
+<div id="table-wrapper" class="box center">
             <table id="ngrams">
                 <tbody>
                     <tr>
                         <td>BIGRAMS</td>
-                        <td id="SFB" style="background: var(--color-4);">SFB: 0.88%</td>
-                        <td id="LSB" style="">LSB: 1.21%</td>
-                        <td id="HSB" style="">HSB: 2.74%</td>
-                        <td id="FSB" style="background: var(--color-3);">FSB: 0.31%</td>
+                        <td id="SFB" style="background: var(--color-4);">SFB: 0.85%</td>
+                        <td id="LSB" style="">LSB: 0.95%</td>
+                        <td id="HSB" style="background: var(--color-3);">HSB: 4.47%</td>
+                        <td id="FSB" style="background: var(--color-3);">FSB: 0.35%</td>
                     </tr>
                     <tr>
                         <td>SKIPGRAMS</td>
-                        <td id="SFS" style="">SFS: 5.62%</td>
-                        <td id="LSS" style="background: var(--color-2);">LSS: 2.72%</td>
-                        <td id="HSS" style="background: var(--color-2);">HSS: 8.11%</td>
-                        <td id="FSS" style="background: var(--color-4);">FSS: 0.47%</td>
+                        <td id="SFS" style="background: var(--color-2);">SFS: 8.01%</td>
+                        <td id="LSS" style="">LSS: 1.46%</td>
+                        <td id="HSS" style="background: var(--color-4);">HSS: 6.73%</td>
+                        <td id="FSS" style="background: var(--color-2);">FSS: 0.83%</td>
                     </tr>
                     <tr>
                         <td>TRIGRAMS</td>
-                        <td id="ALT" style="background: var(--color-1);">ALT: 38.62%</td>
-                        <td id="ROL" style="background: var(--color-3);">ROL: 42.95%</td>
-                        <td id="ONE" style="background: var(--color-3);">ONE: 2.36%</td>
-                        <td id="RED" style="">RED: 2.26%</td>
+                        <td id="ALT" style="background: var(--color-1);">ALT: 39.74%</td>
+                        <td id="ROL" style="background: var(--color-3);">ROL: 41.79%</td>
+                        <td id="ONE" style="background: var(--color-4);">ONE: 2.27%</td>
+                        <td id="RED" style="">RED: 1.90%</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-
-        <div id="table-wrapper" class="box center">
+<div id="table-wrapper" class="box center">
             <table id="use">
                 <tbody>
                     <tr>
                         <td>LEFT</td>
-                        <td id="LI" style="background: var(--color-4);">LI: 13.53%</td>
-                        <td id="LM" style="background: var(--color-2);">LM: 15.04%</td>
-                        <td id="LR" style="background: var(--color-3);">LR: 9.69%</td>
-                        <td id="LP" style="background: var(--color-2);">LP: 8.33%</td>
+                        <td id="LI" style="background: var(--color-2);">LI: 17.20%</td>
+                        <td id="LM" style="background: var(--color-3);">LM: 13.51%</td>
+                        <td id="LR" style="background: var(--color-2);">LR: 10.11%</td>
+                        <td id="LP" style="background: var(--color-2);">LP: 7.78%</td>
                     </tr>
                     <tr>
                         <td>RIGHT</td>
-                        <td id="RI" style="background: var(--color-3);">RI: 13.04%</td>
-                        <td id="RM" style="background: var(--color-2);">RM: 17.13%</td>
-                        <td id="RR" style="background: var(--color-1);">RR: 15.48%</td>
-                        <td id="RP" style="background: var(--color-4);">RP: 7.77%</td>
+                        <td id="RI" style="">RI: 10.49%</td>
+                        <td id="RM" style="background: var(--color-1);">RM: 20.21%</td>
+                        <td id="RR" style="background: var(--color-3);">RR: 11.08%</td>
+                        <td id="RP" style="background: var(--color-1);">RP: 9.63%</td>
                     </tr>
                     <tr>
                         <td>TOTAL</td>
-                        <td id="LH" colspan="2" style="background: var(--color-2);">LH: 46.59%</td>
-                        <td id="RH" colspan="2" style="background: var(--color-2);">RH: 53.41%</td>
+                        <td id="LH" colspan="2" style="background: var(--color-2);">LH: 48.60%</td>
+                        <td id="RH" colspan="2" style="background: var(--color-3);">RH: 51.40%</td>
                     </tr>
                 </tbody>
             </table>

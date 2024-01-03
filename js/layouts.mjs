@@ -254,7 +254,7 @@ export const LAYOUTS = {
     "middlemak": "qwldgjfou:asrtpyneihzxcvbkm,./",
     "middlemak-nh": "qwldgjfou:nsrtpyheiazxcvbkm,./",
     "krigite":   "bldwz'youqnrtsgphaeixjmcvkf.-,",
-    "waffle3":   "xcmgzqyou'rsntbpheiawfldvjk-.,",
+    "waffle3":   "xcmgzqyou,rsntbkheiawfldvjp-.'",
     "nosferateia": "bwlpzjyou'nsrtgfheiaxvcdqkm-,.",
     "minimak-12": "qwdfkyuil;astrghneopzxcvbjm,./",
     "mmmm": "vmlpqzx,u;strdyfnaiojkwcgbh'./e",
