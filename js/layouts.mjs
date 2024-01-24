@@ -256,6 +256,7 @@ export const LAYOUTS = {
     "krigite":   "bldwz'youqnrtsgphaeixjmcvkf.-,",
     "waffle3":   "xcmgzqyou,rsntbkheiawfldvjp-.'",
     "hd-waffle":   "xcmpb/.qj'rsntg,aeihwfldvzuoyk",
+    "mpc2k": "qfhkz'woujrsntmpcaeixbldvgy./,",
     "nosferateia": "bwlpzjyou'nsrtgfheiaxvcdqkm-,.",
     "minimak-12": "qwdfkyuil;astrghneopzxcvbjm,./",
     "mmmm": "vmlpqzx,u;strdyfnaiojkwcgbh'./e",
