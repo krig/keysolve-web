@@ -21,6 +21,8 @@ addEventListener("load", async () => {
     base = await (await fetch('percentiles.json')).json()
 
     window.stats();
+
+    setTimeout(() => { search.change(); window.stats(); }, 200);
 });
 
 window.info = function() {
