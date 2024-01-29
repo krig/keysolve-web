@@ -8,29 +8,12 @@ import * as themes from './themes.mjs'
 
 let base = {}
 
-addEventListener("load", async () => {
-    search.init()
-    drag.init()
-    disable.init()
-    stats.init()
-    settings.init()
-    themes.init()
-
-    board.ortho()
-
-    base = await (await fetch('percentiles.json')).json()
-
-    window.stats();
-
-    setTimeout(() => { search.change(); window.stats(); }, 200);
-});
-
-window.info = function() {
+function open_info() {
     const url = 'https://github.com/ClemenPine/keysolve-web'
     window.open(url, '_blank')
 }
 
-window.stats = function() {
+function update_stats() {
     const res = stats.analyze()
 
     for (const [stat, freq] of Object.entries(res)) {
@@ -55,7 +38,7 @@ window.stats = function() {
     } 
 }
 
-window.mirror = function() {
+function mirror() {
     const grid = document.getElementById('grid')
     const keys = grid.children
 
@@ -76,10 +59,10 @@ window.mirror = function() {
         }
     }
 
-    window.stats()
+    update_stats()
 }
 
-window.invert = function() {
+function invert() {
     const grid = document.getElementById('grid')
     const keys = grid.children
 
@@ -100,19 +83,19 @@ window.invert = function() {
         }
     }
 
-    window.stats()
+    update_stats()
 }
 
-window.copy = function() {
+function copy_layout() {
     const matrix = document.getElementById('matrix')
     navigator.clipboard.writeText(matrix.value)
 }
 
-window.settings = function() {
+function open_settings() {
     settings.open()
 }
 
-window.board = function() {
+function toggle_board() {
     switch (board.board) {
         case 'stagger':
             board.ortho()
@@ -123,7 +106,7 @@ window.board = function() {
         }
 }
 
-window.heatmap = function() {
+function toggle_heatmap() {
     const repeatmap = document.getElementById('repeatmap')
 
     if (repeatmap.disabled) {
@@ -132,3 +115,30 @@ window.heatmap = function() {
         repeatmap.setAttribute('disabled', '')
     }
 }
+
+window.stats = update_stats;
+window.mirror = mirror;
+window.invert = invert;
+window.copy = copy_layout;
+window.settings = open_settings;
+window.board = toggle_board;
+window.heatmap = toggle_heatmap;
+
+
+addEventListener("load", async () => {
+    search.init()
+    drag.init()
+    disable.init()
+    stats.init()
+    settings.init()
+    themes.init()
+
+    board.ortho()
+
+    base = await (await fetch('percentiles.json')).json()
+
+    update_stats();
+
+    setTimeout(() => { search.change(); update_stats(); }, 200);
+});
+
