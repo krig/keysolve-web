@@ -13,7 +13,7 @@ function unfocus() {
     complete.style.display = 'none'
 }
 
-function change() {
+export function change() {
     let stored = {}
     if ('layouts' in localStorage) {
         stored = JSON.parse(localStorage.layouts)
