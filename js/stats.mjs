@@ -16,6 +16,12 @@ export async function init() {
 }
 
 export function analyze() {
+    if (MONOGRAMS === null ||
+        BIGRAMS === null ||
+        SKIPGRAMS === null ||
+        TRIGRAMS === null) {
+        setTimeout(() => analyze(), 100);
+    }
     const letters = board.layout()
     const layout = {}
 

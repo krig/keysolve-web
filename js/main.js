@@ -15,6 +15,10 @@ function open_info() {
 
 function update_stats() {
     const res = stats.analyze()
+    if (res === null) {
+        setTimeout(() => update_stats(), 200);
+        return;
+    }
 
     for (const [stat, freq] of Object.entries(res)) {
         const cell = document.getElementById(stat)
@@ -116,6 +120,7 @@ function toggle_heatmap() {
     }
 }
 
+window.info = open_info;
 window.stats = update_stats;
 window.mirror = mirror;
 window.invert = invert;
@@ -136,8 +141,6 @@ addEventListener("load", async () => {
     board.ortho()
 
     base = await (await fetch('percentiles.json')).json()
-
-    update_stats();
 
     setTimeout(() => { search.change(); update_stats(); }, 200);
 });
