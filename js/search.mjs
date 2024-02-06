@@ -13,7 +13,12 @@ function unfocus() {
     complete.style.display = 'none'
 }
 
-export function change() {
+export function update() {
+    change()
+    setTimeout(() => unfocus(), 40);
+}
+
+function change() {
     let stored = {}
     if ('layouts' in localStorage) {
         stored = JSON.parse(localStorage.layouts)

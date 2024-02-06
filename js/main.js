@@ -142,6 +142,6 @@ addEventListener("load", async () => {
 
     base = await (await fetch('percentiles.json')).json()
 
-    setTimeout(() => { search.change(); update_stats(); }, 200);
+    setTimeout(() => { search.update(); }, 400);
 });
 
