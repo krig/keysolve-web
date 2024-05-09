@@ -21,6 +21,7 @@ export function analyze() {
         !SKIPGRAMS ||
         !TRIGRAMS) {
         setTimeout(() => analyze(), 100);
+        return
     }
     const letters = board.layout()
     const layout = {}

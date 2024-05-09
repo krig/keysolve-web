@@ -15,7 +15,7 @@ function open_info() {
 
 function update_stats() {
     const res = stats.analyze()
-    if (res === null) {
+    if (!res) {
         setTimeout(() => update_stats(), 200);
         return;
     }
