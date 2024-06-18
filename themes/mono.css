@@ -1,9 +1,9 @@
 :root {
-    --color-5: #454545;
-    --color-4: #707070;
-    --color-3: #9a9a9a;
-    --color-2: #d4d4d4;
-    --color-1: #e9e9e9;
+    --color-5: #9b9b9b;
+    --color-4: #ababab;
+    --color-3: #bdbdbd;
+    --color-2: #d1d1d1;
+    --color-1: #e7e7e7;
     --color-search: var(--color-1);
     --color-text: var(--color-bg);
     --color-shadow: #222222;
